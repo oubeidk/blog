@@ -39,9 +39,8 @@ public function loadPosts(ObjectManager $Manager)
 $Manager->flush();
 }
 public function loadUsers(ObjectManager $Manager)
-{
- 
-  
+{ 
+  //test
   
   $user = new User();
   $user->setUsername('oubeid123');
